@@ -1,1 +1,0 @@
-ffmpeg -i INFILE -an -vcodec libx264 -crf 23 outfile.h264.mp4
