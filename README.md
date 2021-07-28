@@ -6,10 +6,10 @@
 
 ## Компиляция
 
-Чтобы откомпилировать:
+Чтобы скомпилировать:
 
 ``` bash
-> javac ViewerYUV.java
+> javac -encoding utf-8 ViewerYUV.java
 ```
 
 ## Пример запуска:
@@ -37,3 +37,5 @@
 В директории `utils`:
 
 - [AddNoise](https://github.com/The220th/yuv_simple_java_viewer) добавляет шум на yuv изображение.
+
+- [MP4toYUV](https://github.com/The220th/yuv_simple_java_viewer) конвертирует "обычное видео" в видео, сохранённое в yuv color space 420.
