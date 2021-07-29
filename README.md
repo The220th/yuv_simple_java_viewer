@@ -36,10 +36,10 @@
 
 В директории `utils`:
 
-- [AddNoise](https://github.com/The220th/yuv_simple_java_viewer) добавляет шум на yuv изображение.
+- [AddNoise](https://github.com/The220th/yuv_simple_java_viewer/tree/main/utils/AddNoise) добавляет шум на yuv изображение.
 
-- [Denoising_BM3D]() убирает шум на yuv изображении.
+- [Denoising_BM3D](https://github.com/The220th/yuv_simple_java_viewer/tree/main/utils/Denoising_BM3D) убирает шум на yuv изображении.
 
-- [MP4toYUV](https://github.com/The220th/yuv_simple_java_viewer) конвертирует "обычное видео" в видео, сохранённое в yuv color space 420.
+- [MP4toYUV](https://github.com/The220th/yuv_simple_java_viewer/tree/main/utils/MP4toYUV) конвертирует "обычное видео" в видео, сохранённое в yuv color space 420.
 
-- [SpacePresser](https://github.com/The220th/yuv_simple_java_viewer) нажимает пробел 30 раз в секунду.
+- [SpacePresser](https://github.com/The220th/yuv_simple_java_viewer/tree/main/utils/SpacePresser) нажимает пробел 30 раз в секунду.
