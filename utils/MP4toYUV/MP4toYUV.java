@@ -37,6 +37,7 @@ public class MP4toYUV
 
 		videoFile = new File(videoPath);
 
+        boolean FIRST = true; //=/
 		int i = 1;
 		int totalFrames = getTotalFrames();
 		boolean f = true;
@@ -66,6 +67,13 @@ public class MP4toYUV
     			{
     				picFrame = FrameGrab.getFrameFromFile(videoFile, i);
     				frame = AWTUtil.toBufferedImage(picFrame);
+                    if(FIRST == true)
+                    {
+                        System.out.println("width = " + frame.getWidth());
+                        System.out.println("height = " + frame.getHeight());
+                        System.out.println("number of frames = " + totalFrames);
+                        FIRST = false;
+                    }
     				System.out.println(i + "/" + totalFrames);
     				if(mainFrame == null)
     				{
